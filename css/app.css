@@ -1,3 +1,14 @@
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+
+
 
 
 .bg-grey {
@@ -9,10 +20,6 @@
     color:rgb(255,143,0) ;
 }
 
-.sidebar {
-    height: 100vh;
-    z-index: 999;
-  }
 
 .bg-blue-linear {
     background: linear-gradient(to top, #0E263C 30%, #12293E 70%)
@@ -24,16 +31,16 @@
 }
 
 
+.sidebar {
+    height: 100vh;
+    z-index: 999;
+  }
+
+
 a.btn.list-group-item:hover {
     background-color: rgb(190, 190, 190)!important;
     cursor: pointer;
 }
 
-li {
-    list-style-type: none;
 
-}
 
-img {
-    max-width: 100%;
-}
