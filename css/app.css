@@ -18,6 +18,12 @@ li {
     top: 0px;
 }
 
+section.bg-blue > .container {
+    height: 120px;
+}
+
+
+
 
 
 
@@ -64,4 +70,11 @@ a.btn.list-group-item:hover {
 }
 
 
+
+@media only screen and (min-width: 768px) {
+    section.bg-blue > .container {
+        width: calc(100% - 290px);
+    }
+
+}
 
