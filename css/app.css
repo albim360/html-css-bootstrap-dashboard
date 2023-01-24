@@ -21,6 +21,10 @@ li {
 section.bg-blue > .container {
     height: 120px;
 }
+.max-width-130 {
+    max-width: 130px;
+
+}
 
 
 
@@ -77,7 +81,7 @@ a.btn.list-group-item:hover {
 
  @media only screen and (min-width: 574px) {
     main {
-       padding-left: 130px; /* PER NON FAR ANDARE I CONTENUTI DENTRO LA SIDEBAR */
+       padding-left: 143px; /* PER NON FAR ANDARE I CONTENUTI DENTRO LA SIDEBAR */
 
     }
 
