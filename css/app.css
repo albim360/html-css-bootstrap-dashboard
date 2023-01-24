@@ -7,9 +7,22 @@ li {
 
 }
 
+/* DEBUG RULE */
+
+.min-height-120 {
+    min-height: 120px;
+}
+
+.mr-position-fix-0px {
+    position: fixed;
+    top: 0px;
+}
 
 
 
+
+
+/* COLOR */
 
 .bg-grey {
     background-color: rgb(229,229,229)!important;
@@ -26,15 +39,23 @@ li {
 
 }
 
+.bg-blue {
+    background-color: rgb(27,114,232);
+}
+
+
 .mc-bg-transparent {
     background-color: transparent!important;
 }
+
+/* SIDEBAR */
 
 
 .sidebar {
     height: 100vh;
     z-index: 999;
   }
+
 
 
 a.btn.list-group-item:hover {
