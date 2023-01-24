@@ -30,6 +30,10 @@ section.bg-blue > .container {
 
 /* COLOR */
 
+.white {
+    color: white;
+}
+
 .bg-grey {
     background-color: rgb(229,229,229)!important;
 }
@@ -70,11 +74,11 @@ a.btn.list-group-item:hover {
 }
 
 
-
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
     section.bg-blue > .container {
         width: calc(100% - 290px);
     }
 
 }
+ */
 
