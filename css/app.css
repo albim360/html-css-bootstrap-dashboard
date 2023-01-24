@@ -1,0 +1,32 @@
+
+
+.bg-grey {
+    background-color: rgb(229,229,229)!important;
+}
+
+
+.gold {
+    color:rgb(255,143,0) ;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    z-index: 999;
+  }
+
+.bg-blue-linear {
+    background: linear-gradient(to top, #0E263C 30%, #12293E 70%)
+
+}
+
+.mc-bg-transparent {
+    background-color: transparent!important;
+}
+
+
+a.btn.list-group-item:hover {
+    background-color: rgb(190, 190, 190)!important;
+    cursor: pointer;
+}
