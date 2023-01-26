@@ -90,51 +90,109 @@
 
     <main class="vh-100 overflow-auto "> 
         <section class="bg-blue min-height-120">
-            <div class="container  py-3">
-                <div class="row flex-sm-column flex-md-row align-items-center">
-                    <div class="col">
-                        <h4 class="white d-inline-block">
-                            Nuovo Studente
-                        </h4>
-                            <button class="btn bg-transparent border-light d-inline-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                                <i class="fa-solid fa-plus white"></i>
-                            </button>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                <div class="offcanvas-header">
-                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                  <div>
-                                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                                  </div>
-                                  <div class="dropdown mt-3">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                      Dropdown button
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                      <li><a class="dropdown-item" href="#">Action</a></li>
-                                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
+            <div class="container">
+                <div class="row flex-sm-nowrap ">
+                    <div class="col-12 col-md">
+                        <div>
+                            <span class="fs-3 white">Boolean</span>
+                            <span class="badge rounded-pill text-white ">Piano blaze</span>
+                        </div>
+
+                        <div class="">
+                            <ul class=" d-flex align-items-center p-0 m-0">
+                                <li class="">
+                                    <span class="badge rounded-pill text-white ">3 app</span>
+                                </li>
+                                <li class="">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                </li>
+                                <li class=" d-none d-md-block">
+                                    <span class="badge rounded-pill text-white ">Boolean mobile app</span>
+                                </li>
+                                <li class=" d-none d-md-block">
+                                    <span class="badge rounded-pill text-white ">Boolean web app</span>
+                                </li>
+                                <li class=" d-none d-md-block">
+                                    <span class="badge rounded-pill text-white ">Boolean blog app</span>
+                                </li>
+                                <li class=" d-block d-md-none">
+                                    <span class="badge rounded-pill text-white ">+</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col">
-                        <h3 class="white">
-                            Boolean
-                        </h3>
+                    <div class="col-md col-sm-12">
+                        <p class="fs-3 white m-0">Studenti online negli ultimi 30 minuti</p>
+                        <p class="fs-4 white m-0">125</p>
                     </div>
-                    <div class="col">
-                        <h5 class="white">
-                            Studenti online negli ultimi 30 minuti
-                        </h5>
-                        <p class="white fs-3 font-weight-bold">
-                            125
-                        </p>
+                    <div class="col-sm-12 col-md">
+                        <span class="d-inline-block white fs-4">Nuovo Studente</span>
+                        <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                        <div class="offcanvas offcanvas-end w-100 " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Nome</label>
+                                        <input type="text" class="form-control" aria-label="First name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" aria-label="Last name">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputEmail4" class="form-label">Email</label>
+                                      <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputPassword4" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress" class="form-label">Indirizzo</label>
+                                      <input type="text" class="form-control" id="inputAddress">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputCity" class="form-label">Città</label>
+                                      <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-4">
+                                      <label for="inputState" class="form-label">Stato</label>
+                                      <select id="inputState" class="form-select">
+                                        <option selected>Choose...</option>
+                                        <option>...</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                      <label for="inputZip" class="form-label">CAP</label>
+                                      <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label for="formFile" class="form-label">File</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Seleziona per proseguire
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                        <button type="button" class="btn btn-warning">Svuota</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    
 
             </div>
 
